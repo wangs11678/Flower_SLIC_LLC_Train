@@ -1,0 +1,290 @@
+# depslib dependency file v1.0
+1479523362 source:/home/wangs/study/Flower_LLC/main.cpp
+	"utils.h"
+	"dsift.h"
+	"dictionary.h"
+	"llc.h"
+	"train.h"
+	"predict.h"
+
+1479521482 /home/wangs/study/Flower_LLC/utils.h
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<cstring>
+	<string>
+	<vector>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<ctime>
+	<opencv2/opencv.hpp>
+
+1479523104 source:/home/wangs/study/Flower_LLC/utils.cpp
+	"utils.h"
+
+1397211326 /usr/local/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/flann/flann.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/legacy/compat.hpp"
+	"opencv2/core/internal.hpp"
+
+1397211326 /usr/local/include/opencv/highgui.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/highgui/highgui.hpp"
+
+1479520020 source:/home/wangs/study/Flower_LLC/dsift.cpp
+	"dsift.h"
+	"utils.h"
+
+1479430618 /home/wangs/study/Flower_LLC/dsift.h
+	<opencv2/opencv.hpp>
+	"opencv2/nonfree/nonfree.hpp"
+
+1479519454 source:/home/wangs/study/Flower_LLC/dictionary.cpp
+	"dictionary.h"
+	"utils.h"
+
+1479430948 /home/wangs/study/Flower_LLC/dictionary.h
+	<opencv2/opencv.hpp>
+
+1479520005 source:/home/wangs/study/Flower_LLC/llc.cpp
+	"llc.h"
+	"utils.h"
+
+1479436645 /home/wangs/study/Flower_LLC/llc.h
+	<opencv2/opencv.hpp>
+
+1479468784 /home/wangs/study/Flower_LLC/train.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<errno.h>
+	<iostream>
+	"liblinear/linear.h"
+
+1443305014 /home/wangs/study/Flower_LLC/liblinear/linear.h
+
+1479519804 source:/home/wangs/study/Flower_LLC/train.cpp
+	"train.h"
+
+1443305010 source:/home/wangs/study/Flower_LLC/liblinear/blas/daxpy.c
+	"blas.h"
+
+1443305010 /home/wangs/study/Flower_LLC/liblinear/blas/blas.h
+	"blasp.h"
+
+1443305010 /home/wangs/study/Flower_LLC/liblinear/blas/blasp.h
+
+1443305010 source:/home/wangs/study/Flower_LLC/liblinear/blas/ddot.c
+	"blas.h"
+
+1443305010 source:/home/wangs/study/Flower_LLC/liblinear/blas/dnrm2.c
+	<math.h>
+	"blas.h"
+
+1443305012 source:/home/wangs/study/Flower_LLC/liblinear/blas/dscal.c
+	"blas.h"
+
+1474601182 source:/home/wangs/study/Flower_LLC/liblinear/linear.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<locale.h>
+	"linear.h"
+	"tron.h"
+
+1443305022 /home/wangs/study/Flower_LLC/liblinear/tron.h
+
+1479469902 source:/home/wangs/study/Flower_LLC/liblinear/tron.cpp
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	"tron.h"
+	"blas/blas.h"
+
+1479519612 /home/wangs/study/Flower_LLC/predict.h
+	<stdio.h>
+	<ctype.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<iostream>
+	"liblinear/linear.h"
+
+1479519758 source:/home/wangs/study/Flower_LLC/predict.cpp
+	"predict.h"
+
+1481202099 source:/home/wangs/Work/Flower_LLC/dictionary.cpp
+	"dictionary.h"
+	"utils.h"
+
+1481202099 /home/wangs/Work/Flower_LLC/dictionary.h
+	<opencv2/opencv.hpp>
+	"vl/kmeans.h"
+
+1479521482 /home/wangs/Work/Flower_LLC/utils.h
+	<dirent.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<cstring>
+	<string>
+	<vector>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<ctime>
+	<opencv2/opencv.hpp>
+
+1481202055 source:/home/wangs/Work/Flower_LLC/dsift.cpp
+	"dsift.h"
+	"utils.h"
+
+1481202077 /home/wangs/Work/Flower_LLC/dsift.h
+	<opencv2/opencv.hpp>
+	"opencv2/nonfree/nonfree.hpp"
+	"vl/dsift.h"
+
+1443305010 source:/home/wangs/Work/Flower_LLC/liblinear/blas/daxpy.c
+	"blas.h"
+
+1443305010 /home/wangs/Work/Flower_LLC/liblinear/blas/blas.h
+	"blasp.h"
+
+1443305010 /home/wangs/Work/Flower_LLC/liblinear/blas/blasp.h
+
+1443305010 source:/home/wangs/Work/Flower_LLC/liblinear/blas/ddot.c
+	"blas.h"
+
+1443305010 source:/home/wangs/Work/Flower_LLC/liblinear/blas/dnrm2.c
+	<math.h>
+	"blas.h"
+
+1443305012 source:/home/wangs/Work/Flower_LLC/liblinear/blas/dscal.c
+	"blas.h"
+
+1474601182 source:/home/wangs/Work/Flower_LLC/liblinear/linear.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<locale.h>
+	"linear.h"
+	"tron.h"
+
+1443305014 /home/wangs/Work/Flower_LLC/liblinear/linear.h
+
+1443305022 /home/wangs/Work/Flower_LLC/liblinear/tron.h
+
+1479469902 source:/home/wangs/Work/Flower_LLC/liblinear/tron.cpp
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	"tron.h"
+	"blas/blas.h"
+
+1479821983 source:/home/wangs/Work/Flower_LLC/llc.cpp
+	"llc.h"
+	"utils.h"
+
+1479951158 /home/wangs/Work/Flower_LLC/llc.h
+	<opencv2/opencv.hpp>
+
+1481201775 source:/home/wangs/Work/Flower_LLC/main.cpp
+	"utils.h"
+	"dsift.h"
+	"dictionary.h"
+	"llc.h"
+	"train.h"
+	"predict.h"
+
+1479468784 /home/wangs/Work/Flower_LLC/train.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<errno.h>
+	<iostream>
+	"liblinear/linear.h"
+
+1479729364 /home/wangs/Work/Flower_LLC/predict.h
+	<stdio.h>
+	<ctype.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<iostream>
+	<vector>
+	"liblinear/linear.h"
+
+1479729236 source:/home/wangs/Work/Flower_LLC/predict.cpp
+	"predict.h"
+
+1479519804 source:/home/wangs/Work/Flower_LLC/train.cpp
+	"train.h"
+
+1479726158 source:/home/wangs/Work/Flower_LLC/utils.cpp
+	"utils.h"
+
+1479864832 source:/home/wangs/Work/Flower_LLC/myKmeans.cpp
+	"myKmeans.h"
+	"utils.h"
+
+1479864756 /home/wangs/Work/Flower_LLC/myKmeans.h
+	<opencv2/opencv.hpp>
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/generic.h
+	"host.h"
+	"random.h"
+	<stdlib.h>
+	<stddef.h>
+	<time.h>
+	<assert.h>
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/host.h
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/random.h
+	"host.h"
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/slic.h
+	"generic.h"
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/dsift.h
+	"generic.h"
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/ikmeans.h
+	"generic.h"
+	"random.h"
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/kmeans.h
+	"generic.h"
+	"random.h"
+	"mathop.h"
+	"kdtree.h"
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/mathop.h
+	"generic.h"
+	<math.h>
+	<float.h>
+
+1421346966 /home/wangs/vlfeat-0.9.20/vl/kdtree.h
+	"generic.h"
+	"mathop.h"
+
